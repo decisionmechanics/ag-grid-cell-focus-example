@@ -1,6 +1,6 @@
 # ag-grid Cell Focus Problem Minimal Example
 
-When using the React Data Grid in `Read Only Edit` mode the cell focus isn't maintained between refreshes.
+When using the React Data Grid in `Read Only Edit` mode the cell focus isn't maintained between data updates.
 
 `enterMovesDownAfterEdit` doesn't move to the next cell after the data has been changed. The app shows the same behavior when using the down arrow key to end an edit and navigate to the cell below.
 
